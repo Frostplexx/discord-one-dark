@@ -34,5 +34,15 @@
 }
 
 .bd-switch input:checked+.bd-switch-body {
-    --switch-color: red !important; 
+    --switch-color:  var(--accent-sea-blue) !important; 
+}
+
+// forum backround color
+.container-3wLKDe{
+	background-color: var(--background-primary)!important;
+}
+
+//search color for forums
+.mainCard-3KBsBI{
+	background-color: var(--background-secondary)!important;
 }

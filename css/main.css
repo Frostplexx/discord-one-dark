@@ -20,16 +20,26 @@
   --status-positive-background: #56B6C2 !important;
   --brand-experiment: #61AFEF !important;
   --brand-experiment-560: #3477ad !important;
+  --brand-experiment-600: #0d497a !important;
+  --brand-experiment-360: #E5C07B !important;
   --profile-body-background-color: #282c34 !important;
   --accent-sea-blue: #56B6C2!important;
   --accent-blue: #61AFEF !important;
   --background-brighter: #363b46!important;
 }
-:root .theme-dark {
+
+.theme-dark {
   --background-primary: #282c34!important;
   --background-secondary: #21252b!important;
   --background-secondary-alt: #21252b!important;
   --background-tertiary: #282c34!important;
+  --text-brand: #E5C07B !important;
+  --status-danger: #E06C75 !important;
+  --button-danger-background: #E06C75 !important;
+}
+
+.root-g14mjS {
+  --modal-background: #282c34!important;
 }
 
 .circleIcon-3489FI {
@@ -61,7 +71,15 @@
 }
 
 .bd-switch input:checked + .bd-switch-body {
-  --switch-color: red !important;
+  --switch-color: var(--accent-sea-blue) !important;
+}
+
+.container-3wLKDe {
+  background-color: var(--background-primary) !important;
+}
+
+.mainCard-3KBsBI {
+  background-color: var(--background-secondary) !important;
 }
 
 .container-ZMc96U.themed-Hp1KC_ {

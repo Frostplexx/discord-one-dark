@@ -6,6 +6,6 @@ A theme inspired / based on the One Dark Atom theme but for Discord.
 
 Go to releases, download the newest one-dark-theme.css and put it into your theme folder.
 
-## Color reference 
+## Color reference
 
 https://raw.githubusercontent.com/joshdick/onedark.vim/main/img/color_reference.png
