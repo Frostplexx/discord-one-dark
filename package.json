@@ -1,0 +1,21 @@
+{
+  "name": "discord-one-dark",
+  "version": "1.0.0",
+  "description": "The One Dark Atom theme for Discord",
+  "scripts": {
+    "build": "sass main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frostplexx/atom-one-dark.git"
+  },
+  "author": "Frostplexx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frostplexx/atom-one-dark/issues"
+  },
+  "homepage": "https://github.com/Frostplexx/atom-one-dark#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
