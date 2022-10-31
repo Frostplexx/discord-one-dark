@@ -1,0 +1,38 @@
+
+// discorvery and add server icon color
+.circleIcon-3489FI{
+	color: var(--accent-sea-blue)!important;
+}
+
+// discovery and add server icon background color
+.circleIconButton-1VxDrg{
+    background-color: var(--background-brighter); 
+} 
+
+// discovery and add server icon background color when hovered / selected
+.circleIconButton-1VxDrg.selected-2r1Hvo{
+	background-color: var(--accent-sea-blue)!important;
+}
+// discovery and add server icon color color when hovered / selected
+.circleIconButton-1VxDrg.selected-2r1Hvo .circleIcon-3489FI{
+	color: var(--interactive-active) !important;
+}
+
+// server and discord logo background 
+.childWrapper-1j_1ub{
+	background-color: var(--background-brighter)!important;
+}
+
+// server and discord logo background when hovered / selected
+.blobContainer-ikKyFs.selected-3c78Ai .childWrapper-1j_1ub{
+	background-color: var(--accent-blue)!important;
+}
+
+// user profile for non premium user
+.userProfileInnerThemedNonPremium-1gT-zY{
+	background: var(--background-primary)!important;
+}
+
+.bd-switch input:checked+.bd-switch-body {
+    --switch-color: red !important; 
+}

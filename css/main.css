@@ -1,3 +1,88 @@
+:root {
+  --accent: var(--info-positive-foreground)!important;
+  --activity-card-background: var(--background-tertiary)!important;
+  --background-accent: #282c34!important;
+  --background-accent-alt: #242424!important;
+  --background-floating: #21252b!important;
+  --background-nested-floating: var(--background-floating);
+  --background-primary: #282c34!important;
+  --background-secondary: #21252b!important;
+  --background-secondary-alt: #21252b!important;
+  --background-tertiary: #282c34!important;
+  --background-modifier-hover: #2c313a80!important;
+  --background-modifier-selected: #282c34!important;
+  --channeltextarea-background: #21252b!important;
+  --interactive-active: #fff!important;
+  --interactive-hover: #dcddde!important;
+  --interactive-muted: #2c313a!important;
+  --interactive-normal: #c8c8c8!important;
+  --input-background: #2c313a!important;
+  --status-positive-background: #56B6C2 !important;
+  --brand-experiment: #61AFEF !important;
+  --brand-experiment-560: #3477ad !important;
+  --profile-body-background-color: #282c34 !important;
+  --accent-sea-blue: #56B6C2!important;
+  --accent-blue: #61AFEF !important;
+  --background-brighter: #363b46!important;
+}
+:root .theme-dark {
+  --background-primary: #282c34!important;
+  --background-secondary: #21252b!important;
+  --background-secondary-alt: #21252b!important;
+  --background-tertiary: #282c34!important;
+}
 
+.circleIcon-3489FI {
+  color: var(--accent-sea-blue) !important;
+}
+
+.circleIconButton-1VxDrg {
+  background-color: var(--background-brighter);
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+  background-color: var(--accent-sea-blue) !important;
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo .circleIcon-3489FI {
+  color: var(--interactive-active) !important;
+}
+
+.childWrapper-1j_1ub {
+  background-color: var(--background-brighter) !important;
+}
+
+.blobContainer-ikKyFs.selected-3c78Ai .childWrapper-1j_1ub {
+  background-color: var(--accent-blue) !important;
+}
+
+.userProfileInnerThemedNonPremium-1gT-zY {
+  background: var(--background-primary) !important;
+}
+
+.bd-switch input:checked + .bd-switch-body {
+  --switch-color: red !important;
+}
+
+.container-ZMc96U.themed-Hp1KC_ {
+  background-color: #282c34 !important;
+}
+
+.addFriend-emTWY1 {
+  background-color: var(--accent-sea-blue) !important;
+}
+
+.addFriend-emTWY1.selected-g-kMVV {
+  color: var(--accent-sea-blue) !important;
+  background-color: #282c34 !important;
+}
+
+.popout-3gby1q {
+  background-color: #282c34 !important;
+}
+
+.searchBar-jGtisZ {
+  background-color: var(--background-secondary) !important;
+}
 
 /*# sourceMappingURL=main.css.map */

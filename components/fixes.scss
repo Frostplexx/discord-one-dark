@@ -1,0 +1,27 @@
+// Here are some manual overrides / hardcoded things for stuff that doesnt get changed normally for some reason
+
+
+
+// friends page header fix
+.container-ZMc96U.themed-Hp1KC_{
+    background-color:#282c34 !important;
+}
+
+// add friend button color change
+.addFriend-emTWY1{
+	background-color: var(--accent-sea-blue) !important;
+}
+
+.addFriend-emTWY1.selected-g-kMVV{
+	color:  var(--accent-sea-blue) !important;
+	background-color: #282c34 !important;
+}
+
+.popout-3gby1q {
+	background-color: #282c34 !important;
+}
+
+// add back search background
+.searchBar-jGtisZ{
+	background-color: var(--background-secondary) !important;
+}

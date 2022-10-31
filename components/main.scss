@@ -1,0 +1,35 @@
+:root {
+    --accent: var(--info-positive-foreground)!important;
+    --activity-card-background: var(--background-tertiary)!important;
+    --background-accent: #282c34!important;
+    --background-accent-alt: #242424!important;
+    --background-floating: #21252b!important;
+    --background-nested-floating: var(--background-floating);
+    --background-primary: #282c34!important;
+    --background-secondary: #21252b!important;
+    --background-secondary-alt: #21252b!important;
+    --background-tertiary: #282c34!important;
+    --background-modifier-hover: #2c313a80!important;
+    --background-modifier-selected: #282c34!important;
+    --channeltextarea-background: #21252b!important;
+    --interactive-active: #fff!important;
+    --interactive-hover: #dcddde!important;
+    --interactive-muted: #2c313a!important;
+    --interactive-normal: #c8c8c8!important;
+    --input-background: #2c313a!important;
+	--status-positive-background: #56B6C2 !important;
+	--brand-experiment: #61AFEF !important; 	//eg button when making group dm
+	--brand-experiment-560: #3477ad !important; //hover color for the button from above
+	--profile-body-background-color: #282c34 !important; //user profile background color
+
+	--accent-sea-blue: #56B6C2!important;
+	--accent-blue: #61AFEF !important;
+	--background-brighter: #363b46!important;
+
+	.theme-dark{
+		--background-primary: #282c34!important;
+		--background-secondary: #21252b!important;
+		--background-secondary-alt: #21252b!important;
+		--background-tertiary: #282c34!important;
+	}
+}
