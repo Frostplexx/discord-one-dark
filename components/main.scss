@@ -35,8 +35,7 @@
 	--brand-experiment-600: #0d497a !important; //click color for the button from above
 	--brand-experiment-360:  var(--accent-yellowish)!important; //for purple text
 	--background-mentioned: #e5c07b2e !important; //background when you are mentioned
-
-
+	--button-positive-background: var(--accent-sea-green) !important; //eg button when dming someone on profile
 
 }
 
@@ -49,6 +48,10 @@
 
 	--status-danger: var(--accent-red)!important;
 	--button-danger-background: var(--accent-red) !important;
+	--button-positive-background: var(--accent-sea-green) !important; //eg button when dming someone on profile
+	--button-positive-background-hover: #4fa5b0 !important;
+	--button-positive-background-active: #3e8892 !important; //eg button when dming someone on profile
+
 }
 .root-g14mjS{
 	--modal-background: var(--primary)!important;

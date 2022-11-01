@@ -23,6 +23,7 @@
   --brand-experiment-600: #0d497a !important;
   --brand-experiment-360: var(--accent-yellowish)!important;
   --background-mentioned: #e5c07b2e !important;
+  --button-positive-background: var(--accent-sea-green) !important;
 }
 
 .theme-dark {
@@ -33,6 +34,9 @@
   --text-brand: var(--accent-yellowish) !important;
   --status-danger: var(--accent-red)!important;
   --button-danger-background: var(--accent-red) !important;
+  --button-positive-background: var(--accent-sea-green) !important;
+  --button-positive-background-hover: #4fa5b0 !important;
+  --button-positive-background-active: #3e8892 !important;
 }
 
 .root-g14mjS {
