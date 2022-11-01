@@ -4,24 +4,24 @@
 
 // friends page header fix
 .container-ZMc96U.themed-Hp1KC_{
-    background-color:#282c34 !important;
+    background-color: var(--primary) !important;
 }
 
 // add friend button color change
 .addFriend-emTWY1{
-	background-color: var(--accent-sea-blue) !important;
+	background-color: var(--accent-sea-green) !important;
 }
 
 .addFriend-emTWY1.selected-g-kMVV{
-	color:  var(--accent-sea-blue) !important;
-	background-color: #282c34 !important;
+	color:  var(--accent-sea-green) !important;
+	background-color: var(--primary) !important;
 }
 
 .popout-3gby1q {
-	background-color: #282c34 !important;
+	background-color: var(--primary) !important;
 }
 
 // add back search background
 .searchBar-jGtisZ{
-	background-color: var(--background-secondary) !important;
+	background-color: var(--secondary) !important;
 }

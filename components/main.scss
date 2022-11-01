@@ -1,46 +1,55 @@
 :root {
-    --accent: var(--info-positive-foreground)!important;
-    --activity-card-background: var(--background-tertiary)!important;
-    --background-accent: #282c34!important;
-    --background-accent-alt: #242424!important;
-    --background-floating: #21252b!important;
-    --background-nested-floating: var(--background-floating);
-    --background-primary: #282c34!important;
-    --background-secondary: #21252b!important;
-    --background-secondary-alt: #21252b!important;
-    --background-tertiary: #282c34!important;
-    --background-modifier-hover: #2c313a80!important;
-    --background-modifier-selected: #282c34!important;
-    --channeltextarea-background: #21252b!important;
-    --interactive-active: #fff!important;
-    --interactive-hover: #dcddde!important;
-    --interactive-muted: #2c313a!important;
-    --interactive-normal: #c8c8c8!important;
-    --input-background: #2c313a!important;
-	--status-positive-background: #56B6C2 !important;
+	// everything with the primary color (#282c34)
+	--primary: #282c34;
 
-	--brand-experiment: #61AFEF !important; 	//eg button when making group dm
-	--brand-experiment-560: #3477ad !important; //hover color for the button from above
-	--brand-experiment-600: #0d497a !important; //click color for the button from above
-	--brand-experiment-360: #E5C07B !important; //for purple text
+    --background-accent: var(--primary)!important;
+	--profile-body-background-color: var(--primary) !important; //user profile background color
+    --background-primary: var(--primary)!important;
+    --background-tertiary: var(--primary)!important;
 
-	--profile-body-background-color: #282c34 !important; //user profile background color
+	// everything with the secondary color (#23272E)
+	--secondary: #23272E;
 
-	--accent-sea-blue: #56B6C2!important;
+    --channeltextarea-background: var(--secondary)!important;
+    --background-secondary: var(--secondary)!important;
+    --background-secondary-alt: var(--secondary)!important;
+    --background-floating: var(--secondary)!important;
+
+	// everything with the tertiary color (#1E2228)
+	--tertiary: #1E2228;
+
+	--input-background: var(--tertiary)!important;
+    --interactive-muted: var(--tertiary)313a!important;
+
+
+	// accent colors 
+	--accent-sea-green: #56B6C2!important;
 	--accent-blue: #61AFEF !important;
 	--background-brighter: #363b46!important;
+	--accent-yellowish: #E5C07B !important;
+	--accent-red: #E06C75 !important;
+
+	--status-positive-background: var(--accent-sea-green) !important;
+	--brand-experiment: var(--accent-blue) !important; 	//eg button when making group dm
+	--brand-experiment-560: #3477ad !important; //hover color for the button from above
+	--brand-experiment-600: #0d497a !important; //click color for the button from above
+	--brand-experiment-360:  var(--accent-yellowish)!important; //for purple text
+	--background-mentioned: #e5c07b2e !important; //background when you are mentioned
+
+
+
 }
 
 .theme-dark{
-	--background-primary: #282c34!important;
-	--background-secondary: #21252b!important;
-	--background-secondary-alt: #21252b!important;
-	--background-tertiary: #282c34!important;
-	--text-brand: #E5C07B !important;
+	--background-primary: var(--primary)!important;
+	--background-secondary: var(--secondary)!important;
+	--background-secondary-alt: var(--secondary)!important;
+	--background-tertiary: var(--tertiary)!important;
+	--text-brand: var(--accent-yellowish) !important;
 
-	--status-danger: #E06C75 !important;
-	--button-danger-background: #E06C75 !important;
+	--status-danger: var(--accent-red)!important;
+	--button-danger-background: var(--accent-red) !important;
 }
 .root-g14mjS{
-	--modal-background: #282c34!important;
+	--modal-background: var(--primary)!important;
 }

@@ -1,49 +1,46 @@
 :root {
-  --accent: var(--info-positive-foreground)!important;
-  --activity-card-background: var(--background-tertiary)!important;
-  --background-accent: #282c34!important;
-  --background-accent-alt: #242424!important;
-  --background-floating: #21252b!important;
-  --background-nested-floating: var(--background-floating);
-  --background-primary: #282c34!important;
-  --background-secondary: #21252b!important;
-  --background-secondary-alt: #21252b!important;
-  --background-tertiary: #282c34!important;
-  --background-modifier-hover: #2c313a80!important;
-  --background-modifier-selected: #282c34!important;
-  --channeltextarea-background: #21252b!important;
-  --interactive-active: #fff!important;
-  --interactive-hover: #dcddde!important;
-  --interactive-muted: #2c313a!important;
-  --interactive-normal: #c8c8c8!important;
-  --input-background: #2c313a!important;
-  --status-positive-background: #56B6C2 !important;
-  --brand-experiment: #61AFEF !important;
-  --brand-experiment-560: #3477ad !important;
-  --brand-experiment-600: #0d497a !important;
-  --brand-experiment-360: #E5C07B !important;
-  --profile-body-background-color: #282c34 !important;
-  --accent-sea-blue: #56B6C2!important;
+  --primary: #282c34;
+  --background-accent: var(--primary)!important;
+  --profile-body-background-color: var(--primary) !important;
+  --background-primary: var(--primary)!important;
+  --background-tertiary: var(--primary)!important;
+  --secondary: #23272E;
+  --channeltextarea-background: var(--secondary)!important;
+  --background-secondary: var(--secondary)!important;
+  --background-secondary-alt: var(--secondary)!important;
+  --background-floating: var(--secondary)!important;
+  --tertiary: #1E2228;
+  --input-background: var(--tertiary)!important;
+  --interactive-muted: var(--tertiary)313a!important;
+  --accent-sea-green: #56B6C2!important;
   --accent-blue: #61AFEF !important;
   --background-brighter: #363b46!important;
+  --accent-yellowish: #E5C07B !important;
+  --accent-red: #E06C75 !important;
+  --status-positive-background: var(--accent-sea-green) !important;
+  --brand-experiment: var(--accent-blue) !important;
+  --brand-experiment-560: #3477ad !important;
+  --brand-experiment-600: #0d497a !important;
+  --brand-experiment-360: var(--accent-yellowish)!important;
+  --background-mentioned: #e5c07b2e !important;
 }
 
 .theme-dark {
-  --background-primary: #282c34!important;
-  --background-secondary: #21252b!important;
-  --background-secondary-alt: #21252b!important;
-  --background-tertiary: #282c34!important;
-  --text-brand: #E5C07B !important;
-  --status-danger: #E06C75 !important;
-  --button-danger-background: #E06C75 !important;
+  --background-primary: var(--primary)!important;
+  --background-secondary: var(--secondary)!important;
+  --background-secondary-alt: var(--secondary)!important;
+  --background-tertiary: var(--tertiary)!important;
+  --text-brand: var(--accent-yellowish) !important;
+  --status-danger: var(--accent-red)!important;
+  --button-danger-background: var(--accent-red) !important;
 }
 
 .root-g14mjS {
-  --modal-background: #282c34!important;
+  --modal-background: var(--primary)!important;
 }
 
 .circleIcon-3489FI {
-  color: var(--accent-sea-blue) !important;
+  color: var(--accent-sea-green) !important;
 }
 
 .circleIconButton-1VxDrg {
@@ -51,7 +48,7 @@
 }
 
 .circleIconButton-1VxDrg.selected-2r1Hvo {
-  background-color: var(--accent-sea-blue) !important;
+  background-color: var(--accent-sea-green) !important;
 }
 
 .circleIconButton-1VxDrg.selected-2r1Hvo .circleIcon-3489FI {
@@ -71,7 +68,7 @@
 }
 
 .bd-switch input:checked + .bd-switch-body {
-  --switch-color: var(--accent-sea-blue) !important;
+  --switch-color: var(--accent-sea-green) !important;
 }
 
 .container-3wLKDe {
@@ -83,24 +80,24 @@
 }
 
 .container-ZMc96U.themed-Hp1KC_ {
-  background-color: #282c34 !important;
+  background-color: var(--primary) !important;
 }
 
 .addFriend-emTWY1 {
-  background-color: var(--accent-sea-blue) !important;
+  background-color: var(--accent-sea-green) !important;
 }
 
 .addFriend-emTWY1.selected-g-kMVV {
-  color: var(--accent-sea-blue) !important;
-  background-color: #282c34 !important;
+  color: var(--accent-sea-green) !important;
+  background-color: var(--primary) !important;
 }
 
 .popout-3gby1q {
-  background-color: #282c34 !important;
+  background-color: var(--primary) !important;
 }
 
 .searchBar-jGtisZ {
-  background-color: var(--background-secondary) !important;
+  background-color: var(--secondary) !important;
 }
 
 /*# sourceMappingURL=main.css.map */
