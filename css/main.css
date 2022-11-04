@@ -87,6 +87,24 @@
   background-color: var(--background-secondary) !important;
 }
 
+.scrollableContainer-15eg7h {
+  border-radius: 25px !important;
+}
+
+.bar-2eAyLE.unreadBar-elBRZx.unread-2wipsx {
+  backdrop-filter: blur(5px) !important;
+}
+
+.form-3gdLxP {
+  background: none !important;
+  background-color: none !important;
+}
+
+.channelTextArea-1FufC0 {
+  background: none !important;
+  background-color: none !important;
+}
+
 .container-ZMc96U.themed-Hp1KC_ {
   background-color: var(--primary) !important;
 }
@@ -106,6 +124,14 @@
 
 .searchBar-jGtisZ {
   background-color: var(--secondary) !important;
+}
+
+.panels-3wFtMD {
+  background-color: var(--tertiary) !important;
+}
+
+.form-3gdLxP {
+  margin-bottom: -10px !important;
 }
 
 /*# sourceMappingURL=main.css.map */

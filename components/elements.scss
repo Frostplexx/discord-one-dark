@@ -50,3 +50,24 @@
 .mainCard-3KBsBI{
 	background-color: var(--background-secondary)!important;
 }
+
+// rounded corners for chatbox
+.scrollableContainer-15eg7h{
+	border-radius: 25px!important;
+}
+
+// background blur for unread popout
+.bar-2eAyLE.unreadBar-elBRZx.unread-2wipsx{
+	backdrop-filter: blur(5px)!important;
+}
+
+// background blur for chatbox bottom
+.form-3gdLxP{
+	background: none !important;
+	background-color: none !important;
+}
+
+.channelTextArea-1FufC0{
+	background: none !important;
+	background-color: none !important;
+}

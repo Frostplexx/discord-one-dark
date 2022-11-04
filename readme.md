@@ -1,6 +1,6 @@
-# One Dark theme for Discord
+# One Dark
 
-A theme inspired / based on the One Dark Atom theme but for Discord.
+<p style="text-align: center;">Simple, beautiful, sleek. The bevoled One Dark Atom theme brought to Discord!</p>
 
 ## Installation
 
