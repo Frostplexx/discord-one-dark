@@ -24,6 +24,7 @@
   --brand-experiment-360: var(--accent-yellowish)!important;
   --background-mentioned: #e5c07b2e !important;
   --button-positive-background: var(--accent-sea-green) !important;
+  --interactive-muted: #4B4C4F !important;
 }
 
 .theme-dark {
@@ -132,6 +133,11 @@
 
 .form-3gdLxP {
   margin-bottom: -10px !important;
+}
+
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
+  background-color: var(--accent-blue) !important;
 }
 
 /*# sourceMappingURL=main.css.map */
