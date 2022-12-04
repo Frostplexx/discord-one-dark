@@ -1,73 +1,96 @@
-
 // discorvery and add server icon color
-.circleIcon-3489FI{
-	color: var(--accent-sea-green)!important;
+.circleIcon-3489FI {
+  color: var(--accent-sea-green) !important;
 }
 
 // discovery and add server icon background color
-.circleIconButton-1VxDrg{
-    background-color: var(--background-brighter); 
-} 
+.circleIconButton-1VxDrg {
+  background-color: var(--background-brighter);
+}
 
 // discovery and add server icon background color when hovered / selected
-.circleIconButton-1VxDrg.selected-2r1Hvo{
-	background-color: var(--accent-sea-green)!important;
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+  background-color: var(--accent-sea-green) !important;
 }
+
 // discovery and add server icon color color when hovered / selected
-.circleIconButton-1VxDrg.selected-2r1Hvo .circleIcon-3489FI{
-	color: var(--interactive-active) !important;
+.circleIconButton-1VxDrg.selected-2r1Hvo .circleIcon-3489FI {
+  color: var(--interactive-active) !important;
 }
 
 // server and discord logo background 
-.childWrapper-1j_1ub{
-	background-color: var(--background-brighter)!important;
+.childWrapper-1j_1ub {
+  background-color: var(--background-brighter) !important;
 }
 
 // server and discord logo background when hovered / selected
-.blobContainer-ikKyFs.selected-3c78Ai .childWrapper-1j_1ub{
-	background-color: var(--accent-blue)!important;
+.blobContainer-ikKyFs.selected-3c78Ai .childWrapper-1j_1ub {
+  background-color: var(--accent-blue) !important;
 }
 
 // user profile for non premium user
-.userProfileInnerThemedNonPremium-1gT-zY{
-	background: var(--background-primary)!important;
+.userProfileInnerThemedNonPremium-1gT-zY {
+  background: var(--background-primary) !important;
 }
 
 // bd switches
-.bd-switch input:checked+.bd-switch-body {
-    --switch-color:  var(--accent-sea-green) !important; 
-}
-.container-2nx-BQ.checked-25WXMf {
-	background-color:  var(--accent-sea-green) !important; 
+.bd-switch input:checked + .bd-switch-body {
+  --switch-color: var(--accent-sea-green) !important;
 }
 
+.container-2nx-BQ.checked-25WXMf {
+  background-color: var(--accent-sea-green) !important;
+}
+
+// bd buttons
+.bd-button.bd-button-title{
+	  background-color: var(--accent-blue) !important;
+}
+
+.bd-button.bd-view-button.selected{
+	background-color: var(--accent-blue) !important;
+}
+
+.bd-button.bd-addon-button{
+	background-color: var(--accent-blue) !important;
+}
+
+.bd-button.bd-addon-button.bd-button-danger{
+	background-color: var(--accent-red) !important;
+}
+
+//round buttons
+.roundButton-2_R5PN.activeButton-LRWFC_{
+  background-color: var(--accent-blue) !important;
+}
 // forum backround color
-.container-3wLKDe{
-	background-color: var(--background-primary)!important;
+.container-3wLKDe {
+  background-color: var(--background-primary) !important;
 }
 
 //search color for forums
-.mainCard-3KBsBI{
-	background-color: var(--background-secondary)!important;
+.mainCard-3KBsBI {
+  background-color: var(--background-secondary) !important;
 }
 
 // rounded corners for chatbox
-.scrollableContainer-15eg7h{
-	border-radius: 25px!important;
+.scrollableContainer-15eg7h {
+  border-radius: 25px !important;
 }
 
 // background blur for unread popout
-.bar-2eAyLE.unreadBar-elBRZx.unread-2wipsx{
-	backdrop-filter: blur(5px)!important;
+.bar-2eAyLE.unreadBar-elBRZx.unread-2wipsx {
+  backdrop-filter: blur(5px) !important;
 }
 
 // background blur for chatbox bottom
-.form-3gdLxP{
-	background: none !important;
-	background-color: none !important;
+.form-3gdLxP {
+  background: none !important;
+  background-color: none !important;
 }
 
-.channelTextArea-1FufC0{
-	background: none !important;
-	background-color: none !important;
+.channelTextArea-1FufC0 {
+  background: none !important;
+  background-color: none !important;
 }
+

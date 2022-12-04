@@ -80,6 +80,26 @@
   background-color: var(--accent-sea-green) !important;
 }
 
+.bd-button.bd-button-title {
+  background-color: var(--accent-blue) !important;
+}
+
+.bd-button.bd-view-button.selected {
+  background-color: var(--accent-blue) !important;
+}
+
+.bd-button.bd-addon-button {
+  background-color: var(--accent-blue) !important;
+}
+
+.bd-button.bd-addon-button.bd-button-danger {
+  background-color: var(--accent-red) !important;
+}
+
+.roundButton-2_R5PN.activeButton-LRWFC_ {
+  background-color: var(--accent-blue) !important;
+}
+
 .container-3wLKDe {
   background-color: var(--background-primary) !important;
 }
@@ -135,9 +155,12 @@
   margin-bottom: -10px !important;
 }
 
-
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
   background-color: var(--accent-blue) !important;
+}
+
+.channelTextArea-1FufC0.channelTextArea-1VQBuV {
+  background: transparent !important;
 }
 
 /*# sourceMappingURL=main.css.map */
