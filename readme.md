@@ -12,8 +12,13 @@
 
 ## Installation
 
+### Better Discord
 To use this theme you need Better Discord installed. For more info visit [their Website](https://betterdiscord.app).<br />
 Go to releases, download the newest one-dark.theme.css and put it into your themes folder.
+
+### Vencord
+
+Just post the following link into the "Themes" section: `https://frostplexx.github.io/discord-one-dark/css/main.css`
 
 If you need any help, or have suggestions you can dm me on Discord: Frostplexx#3907
 
