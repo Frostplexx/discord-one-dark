@@ -83,14 +83,58 @@
   backdrop-filter: blur(5px) !important;
 }
 
-// background blur for chatbox bottom
-.form-3gdLxP {
-  background: none !important;
-  background-color: none !important;
-}
-
 .channelTextArea-1FufC0 {
   background: none !important;
   background-color: none !important;
 }
 
+//new colors for status icons
+
+//online status
+
+//sidebar
+rect[mask="url(#svg-mask-status-online)"] {
+  fill: var(--accent-green) !important;
+}
+//chat header
+div[aria-label="Online"] rect{
+  fill: var(--accent-green) !important;
+  transition:  fill 200ms;
+}
+
+//offline status
+
+//in the sidebar
+rect[mask="url(#svg-mask-status-offline)"] {
+  fill: var(--bright-gray)!important;
+}
+//chat header
+div[aria-label="Offline"] rect{
+  fill: var(--bright-gray) !important;
+  transition:  fill 200ms;
+}
+
+//dnd status
+
+//in the sidebar
+rect[mask="url(#svg-mask-status-dnd)"] {
+  fill: var(--accent-red) !important;
+}
+//chat header
+div[aria-label="Do Not Disturb"] rect{
+  fill: var(--accent-red) !important;
+  transition:  fill 200ms;
+}
+
+
+//idle status
+
+//sidebar
+rect[mask="url(#svg-mask-status-idle)"]{
+  fill: var(--accent-yellowish) !important;
+}
+//chat header
+div[aria-label="Idle"] .mask-3tgVZv rect{
+  fill: var(--accent-yellowish) !important;
+  transition:  fill 200ms;
+}

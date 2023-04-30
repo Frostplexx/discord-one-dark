@@ -19,10 +19,19 @@
 	--tertiary: #1E2228;
 
 	--input-background: var(--tertiary)!important;
-    --interactive-muted: var(--tertiary)313a!important;
+  --interactive-muted: var(--tertiary)313a!important;
 
+  --bright-gray: #ABB2BF;
+
+
+  //override the status colors
+  --green-360: var(--accent-green) !important;
+  --yellow-300: var(--accent-yellowish) !important;
+  --red-400: var(--accent-red) !important;
+  --primary-400: var(--bright-gray) !important;
 
 	// accent colors 
+  --accent-green: #98C379;
 	--accent-sea-green: #56B6C2!important;
 	--accent-blue: #61AFEF !important;
 	--background-brighter: #363b46!important;

@@ -20,3 +20,7 @@ If you need any help, or have suggestions you can dm me on Discord: Frostplexx#3
 ## Preview
 
 You can preview the theme [here](https://gibbu.github.io/ThemePreview/?file=https://frostplexx.github.io/discord-one-dark/css/main.css)
+
+## TODO
+
+- [] Status icons in the chat header need to be fixed
